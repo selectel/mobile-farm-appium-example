@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ES2020",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "types": ["node", "jest"],
+    "typeRoots": ["./node_modules/@types"],
+
+  },
+  "include": [
+    "**/*.ts",
+    "types/types.d.ts"
+  ]
+}
